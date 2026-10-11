@@ -1,0 +1,18 @@
+{
+  "name": "redflagy",
+  "version": "1.0.0",
+  "description": "Redflagy — scanne vos playlists Spotify et signale les affaires judiciaires connues via un système de drapeaux (rouge/orange/vert).",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "node-fetch": "^2.7.0"
+  }
+}
